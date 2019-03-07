@@ -1,0 +1,35 @@
+{
+  "name": "node-cli",
+  "version": "0.0.1",
+  "description": "CLI工具初始工程",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-cli": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandianjuse/node-cli.git"
+  },
+  "author": "半点橘色",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandianjuse/node-cli/issues"
+  },
+  "homepage": "https://github.com/bandianjuse/node-cli#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "fs-extra": "^2.1.2",
+    "iconv-lite": "^0.4.15",
+    "inquirer": "^3.0.6",
+    "ora": "^1.2.0",
+    "promise-exec": "^0.1.0",
+    "request": "^2.81.0"
+  }
+}
+}
